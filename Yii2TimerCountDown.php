@@ -1,5 +1,5 @@
 <?php
-namespace common\widgets\Yii2TimerCountDown;
+namespace aneeshikmat\yii2\Yii2TimerCountDown;
 
 use yii\base\Widget;
 use yii\db\Exception;
