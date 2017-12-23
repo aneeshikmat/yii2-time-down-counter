@@ -1,0 +1,21 @@
+{
+  "name": "aneeshikmat/yii2-time-down-counter",
+  "description": "Widget for yii2, to start count down timer with a lot of options, This widget build dependence of timeDownCounter JS library",
+  "type": "Yii2-widget",
+  "license": "MIT",
+  "keywords": [
+    "time",
+    "down",
+    "counter",
+    "yii2 timer",
+    "yii2 countdown timer"
+  ],
+  "authors": [
+    {
+      "name": "Anees Hikmat",
+      "email": "aneeshikmat@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}

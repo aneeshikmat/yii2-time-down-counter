@@ -3,7 +3,7 @@ Widget for yii2, to start count down timer with a lot of options, This widget bu
 
 ## Screenshot from normal result
 
-![Yii2 timeDownCounter screenshot_t1](http://2nees.com/github/timeDownCounter/temp-0.png)
+![Yii2 timeDownCounter screenshot_t1](http://2nees.com/github/timeDownCounter/def-timer-widget.png)
 
 ## Screenshot for templete 1
 
