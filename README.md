@@ -43,10 +43,10 @@ or add
 to the require section of your `composer.json` file.
 
 For advance template you need to set this widjet in common directory, and the path style will be like this:
-> yii2Advance/common/widgets/formCompleteRatio
+> yii2Advance/common/widgets/Yii2TimerCountDown
 
 For Basic templete, set this widjet in this path(if current path not exsists create it manually)
-> yii2basic/common/widgets/formCompleteRatio
+> yii2basic/common/widgets/Yii2TimerCountDown
 
 And then Add this line '@common' => '@app/common' to 'config/web.php' under 'aliases'.
 
