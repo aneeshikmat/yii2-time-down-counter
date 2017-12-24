@@ -24,6 +24,7 @@ And you can custmize you'r template as yourr like, we give you an option to buil
 5. You can handling time over message.
 6. You have an option to determind if timer will display d-h-m-s or h-m-s or m-s.
 7. its an javascript functon and you dont need to include any other js/css lib.
+8. You can set script to execute when timer is over
 
 ## Decencies
 
