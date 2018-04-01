@@ -93,7 +93,7 @@ JS;
 1) countDownIdSelector: This option give you apilty to change default timer wrapper, its usfall if you have more than one timer in the same page, default selctor value is 'time-down-counter', and this selector must be an ID.
 
 2) countDownDate: This option will accept count down date in millisecond, if you keep it empty the default value will be current time so that the count down over message will be print.
-Note: you need to set time in millisecond like this **strtotime("+1 day") * 1000; OR strtotime('2018-11-10 15:47:25') * 1000 **.
+Note: you need to set time in millisecond like this **strtotime("+1 day") * 1000; OR strtotime("2018-11-10 15:47:25") * 1000 **.
 
 3) countDownResSperator: This option give you apilty to change time Sperator, default sperator is **<span class="timeDownSperator">:</span>** nested in <span> tag.
     
