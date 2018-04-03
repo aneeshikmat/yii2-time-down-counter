@@ -86,8 +86,8 @@ JS;
             'countDownOver' => 'Expired',
             'countDownReturnData' => 'from-days',
             'templateStyle' => 0,
-            'getTemplateResult': 0,
-            'callBack': $callBackScript
+            'getTemplateResult' => 0,
+            'callBack' => $callBackScript
         ]) ?>
 ```
 1) countDownIdSelector: This option give you apilty to change default timer wrapper, its usfall if you have more than one timer in the same page, default selctor value is 'time-down-counter', and this selector must be an ID.
