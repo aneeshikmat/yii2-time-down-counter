@@ -24,6 +24,7 @@ And you can custmize you'r template as yourr like, we give you an option to buil
 5. You can handling time over message.
 6. You have an option to determind if timer will display d-h-m-s or h-m-s or m-s.
 7. its an javascript functon and you dont need to include any other js/css lib.
+8. You can set script to execute when timer is over
 
 ## Decencies
 
@@ -42,17 +43,13 @@ or add
 
 to the require section of your `composer.json` file.
 
-For advance template you need to set this widjet in common directory, and the path style will be like this:
-> yii2Advance/common/widgets/Yii2TimerCountDown
-
-For Basic templete, set this widjet in this path(if current path not exsists create it manually)
-> yii2basic/common/widgets/Yii2TimerCountDown
-
-And then Add this line '@common' => '@app/common' to 'config/web.php' under 'aliases'.
-
 ## Usage
 To use this widget you need to add this code to your html: 
 ```
+<?php
+    use aneeshikmat\yii2\Yii2TimerCountDown\Yii2TimerCountDown;
+?>
+
 <body>
 ............
 <div class="row">
@@ -89,16 +86,16 @@ JS;
             'countDownOver' => 'Expired',
             'countDownReturnData' => 'from-days',
             'templateStyle' => 0,
-            'getTemplateResult': 0,
-            'callBack': $callBackScript
+            'getTemplateResult' => 0,
+            'callBack' => $callBackScript
         ]) ?>
 ```
 1) countDownIdSelector: This option give you apilty to change default timer wrapper, its usfall if you have more than one timer in the same page, default selctor value is 'time-down-counter', and this selector must be an ID.
 
 2) countDownDate: This option will accept count down date in millisecond, if you keep it empty the default value will be current time so that the count down over message will be print.
-Note: you need to set time in millisecond like this **strtotime("+1 day") * 1000;**.
+Note: you need to set time in millisecond like this **strtotime("+1 day") * 1000;** **OR strtotime("2018-11-10 15:47:25") * 1000**.
 
-3) countDownResSperator: This option give you apilty to change time Sperator, default sperator is **<span class="timeDownSperator">:</span>** nested in <span> tag.
+3) countDownResSperator: This option give you apilty to change time Sperator, default sperator is **```<span class="timeDownSperator">:</span>```**.
     
 4) countDownReturnData: This option give you apilty to display full timer result (days, hours, minutes, seconds), or (hours, minutes, seconds) or (minutes, seconds), and accpet options is ('from-days' is default, 'from-hours', 'from-minutes').
 Note: This option will keep timer work nomraly without removed any value, just hide / show option.

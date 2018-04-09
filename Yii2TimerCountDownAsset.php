@@ -1,6 +1,6 @@
 <?php
 
-namespace common\widgets\Yii2TimerCountDown;
+namespace aneeshikmat\yii2\Yii2TimerCountDown;
 
 use yii\web\AssetBundle;
 use Yii;
