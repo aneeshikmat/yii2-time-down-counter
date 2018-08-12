@@ -21,12 +21,6 @@
   "require": {
     "yiisoft/yii2": "~2.0.0"
   },
-  "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org/packages/aneeshikmat/yii2-time-down-counter"
-        }
-    ],
   "autoload": {
       "psr-4": {
           "aneeshikmat\\yii2\\Yii2TimerCountDown\\": ""
