@@ -27,14 +27,6 @@
             "url": "https://packagist.org/packages/aneeshikmat/yii2-time-down-counter"
         }
     ],
-  {
-  "tag_name": "v1.0.0",
-  "target_commitish": "master",
-  "name": "v1.0.0",
-  "body": "Yii2 Pure Javascript countdowntimer",
-  "draft": false,
-  "prerelease": false
-}
   "autoload": {
       "psr-4": {
           "aneeshikmat\\yii2\\Yii2TimerCountDown\\": ""
