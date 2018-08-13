@@ -1,6 +1,9 @@
 # yii2-time-down-counter
 Widget for yii2, to start count down timer with a lot of options, This widget build dependence of timeDownCounter JS library
 
+[![Total Downloads](https://img.shields.io/packagist/dt/aneeshikmat/yii2-time-down-counter.svg?style=popout-square)](https://packagist.org/packages/aneeshikmat/yii2-time-down-counter)
+[![Latest Stable Version](https://poser.pugx.org/aneeshikmat/yii2-time-down-counter/v/stable)](https://packagist.org/packages/aneeshikmat/yii2-time-down-counter)
+
 ## Screenshot from normal result
 
 ![Yii2 timeDownCounter screenshot_t1](http://2nees.com/github/timeDownCounter/def-timer-widget.png)
