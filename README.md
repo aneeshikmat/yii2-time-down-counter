@@ -47,7 +47,8 @@ or add
 to the require section of your `composer.json` file.
 
 ## Usage
-To use this widget you need to add this code to your html: 
+To use this widget you need to add this code to your html:
+
 ```
 <?php
     use aneeshikmat\yii2\Yii2TimerCountDown\Yii2TimerCountDown;
@@ -64,8 +65,8 @@ To use this widget you need to add this code to your html:
         <?= Yii2TimerCountDown::widget() ?>
     </div>
 </div>
-
 ```
+
 As you see, its very simple, and now we will be explaning this code, and then go to display all option may be use to help us,
 In prev code we call Yii2TimerCountDown widget.(if you write this syntax dirctly without determind any option, you will git time over message).
 
