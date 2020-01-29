@@ -18,7 +18,19 @@ class Yii2TimerCountDown extends Widget
      * This option will accept count down date in millisecond, if you keep it empty the default value will be current time
      */
     public $countDownDate;
-    
+
+     /*
+     * @var bool
+     * This option give you ability to set current Time from server.
+     */
+    public $addServerTime = false;
+
+    /*
+     * @var milisecond time
+     * This option will accept start of count down in millisecond, if you keep it empty the default value will be current time
+     */
+    public $now;
+
     /*
      * @var string
      * This option give you apilty to change time Sperator, default sperator is : nested in tag.
@@ -36,7 +48,7 @@ class Yii2TimerCountDown extends Widget
     
     /*
      * @var bool
-     * This option give you apilty to set each number groub in tag contain general class called item-counter-down.
+     * This option give you ability to set each number group in tag contain general class called item-counter-down.
      */
     public $addSpanForResult = false;
     
@@ -81,7 +93,10 @@ class Yii2TimerCountDown extends Widget
         parent::init();
         
         if(empty($this->countDownDate)){
-            $this->countDownDate = strtotime("now") * 1000;
+            $this->countDownDate = time() * 1000;
+        }
+        if($this->addServerTime){
+            $this->now = time() * 1000;
         }
         
         // If you change default template or you need to use template, you most has an inner spans
@@ -107,6 +122,7 @@ class Yii2TimerCountDown extends Widget
             timeDownCounter({
                 'countDownIdSelector': '$this->countDownIdSelector',
                 'countDownDate': '$this->countDownDate',
+                'now': '$this->now',
                 'countDownResSperator': '$this->countDownResSperator',
                 'countDownReturnData': '$this->countDownReturnData',
                 'addSpanForResult': '$this->addSpanForResult',
@@ -120,7 +136,7 @@ JS;
         
         $template1 = <<<temp1
             #$this->countDownIdSelector .item-counter-down {
-                background: #c0c0c0;
+                background: #000;
                 display: inline-block;
                 padding: 15px;
                 font-size: 45px;
