@@ -38,11 +38,11 @@ The preferred way to install this extension is through [composer](https://getcom
 
 Either run
 
-`php composer.phar require --prefer-dist aneeshikmat/yii2-time-down-counter "v1.0.0-stable"`
+`php composer.phar require --prefer-dist aneeshikmat/yii2-time-down-counter "v1.1.0-stable"`
 
 or add
 
-`"aneeshikmat/yii2-time-down-counter": "v1.0.0-stable"`
+`"aneeshikmat/yii2-time-down-counter": "v1.1.0-stable"`
 
 to the require section of your `composer.json` file.
 
@@ -91,6 +91,7 @@ JS;
             'countDownReturnData' => 'from-days',
             'templateStyle' => 0,
             'getTemplateResult' => 0,
+            'addServerTime' => false,
             'callBack' => $callBackScript
         ]) ?>
 ```
@@ -107,6 +108,8 @@ Note: This option will keep timer work nomraly without removed any value, just h
 5) addSpanForResult: This option give you apilty to set each number groub in <span> tag contain general class called **item-counter-down**.
     
 6) addSpanForEachNum: This option give you apilty to set each number in timer in <span> tag contain general class called **inner-item-counter-down**. 
+    
+7) addServerTime: if you set it as a true, the count down timer will get current time from server and set it to calculate count down (This compare will be set between server time).
     
 ## screenshot for html result for point 5 and 6: 
 
