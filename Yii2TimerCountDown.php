@@ -136,7 +136,7 @@ JS;
         
         $template1 = <<<temp1
             #$this->countDownIdSelector .item-counter-down {
-                background: #000;
+                background: #c0c0c0;
                 display: inline-block;
                 padding: 15px;
                 font-size: 45px;
