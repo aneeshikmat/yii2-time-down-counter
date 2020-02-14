@@ -109,7 +109,7 @@ Note: This option will keep timer work nomraly without removed any value, just h
     
 6) addSpanForEachNum: This option give you apilty to set each number in timer in <span> tag contain general class called **inner-item-counter-down**. 
     
-7) addServerTime: if you set it as a true, the count down timer will get current time from server and set it to calculate count down (This compare will be set between server time).
+7) addServerTime: if you set it as a true, the count down timer will get current time from server and set it to calculate count down (This compare will be set between server time).- default option is false.
     
 ## screenshot for html result for point 5 and 6: 
 
