@@ -6,15 +6,15 @@ Widget for yii2, to start count down timer with a lot of options, This widget bu
 
 ## Screenshot from normal result
 
-![Yii2 timeDownCounter screenshot_t1](http://2nees.com/github/timeDownCounter/def-timer-widget.png)
+![Yii2 timeDownCounter screenshot_t1](https://2nees.com/img/github/timer1.png)
 
 ## Screenshot for templete 1
 
-![Yii2 timeDownCounter screenshot_temp1](http://2nees.com/github/timeDownCounter/temp-1.png)
+![Yii2 timeDownCounter screenshot_temp1](https://2nees.com/img/github/timer2.png)
 
 ## Screenshot for templete 2
 
-![Yii2 timeDownCounter screenshot_temo2](http://2nees.com/github/timeDownCounter/temp-2.png)
+![Yii2 timeDownCounter screenshot_temo2](https://2nees.com/img/github/timer3.png)
 
 And you can custmize you'r template as yourr like, we give you an option to build and control your design or use our simple design and change color, distance ...etc as you like.
 
