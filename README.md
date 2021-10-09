@@ -113,7 +113,7 @@ Note: This option will keep timer work nomraly without removed any value, just h
     
 ## screenshot for html result for point 5 and 6: 
 
-![Yii2 timeDownCounter screenshot_temo2](http://2nees.com/github/timeDownCounter/temp-3.png)
+![Yii2 timeDownCounter screenshot_temo2](https://2nees.com/img/github/timer4.png)
 
 7) contDownOver: This option give you apilty to update message for count down over (when timer is finshed).
 
